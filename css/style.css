@@ -1,5 +1,7 @@
 @charset 'UTF-8';
 @import url('http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600');
+@import url(http://fonts.googleapis.com/css?family=Oswald:400,300);
+@import url(http://fonts.googleapis.com/css?family=Quicksand:300,400,700);
 @import url('font-awesome.min.css');
 
 /*
@@ -18,8 +20,8 @@
 		background-color: #12151D;
 		color: #999;
 		color: rgba(255,255,255,0.6);
-		font-family: 'Source Sans Pro';
-		font-weight: 400;
+		font-family: 'Quicksand', sans-serif;
+		font-weight: 300;
 	}
 
 	a
@@ -39,13 +41,47 @@
 			color: #d64760;
 		}
 
-	h1,h2,h3,h4,h5,h6
+	h1
 	{
 		font-weight: 400;
 		color: #fff;
-		letter-spacing: -0.05em;
+		letter-spacing: 0.05em;
 	}
-	
+	h2
+    {
+        font-weight: 400;
+        color: #fff;
+        font-size-adjust:auto;
+       letter-spacing: -0.05em
+        
+    }
+    h3
+    {
+        font-size: 2em;
+        font-weight:lighter;
+        color: #fff;
+        letter-spacing: 0.05em;
+    }
+   h4
+    {
+        font-weight: 700;
+        color: #fff;
+        letter-spacing: 0.05em;
+    }
+    h5
+    {
+        font-weight: 400;
+        color: #fff;
+        letter-spacing: 0.05em;
+        font-family: 'Oswald'
+    }
+    h6
+    {
+        font-weight: 400;
+        color: #fff;
+        letter-spacing: 0.05em;
+        font-family: 'Source Sans Pro'
+    }
 	strong, b
 	{
 		color: #fff;
@@ -100,7 +136,7 @@
 		
 			.item.thumb
 			{
-				display: block;
+                display: block;
 				position: relative;
 				background: #1a1f2c;
 				background: rgba(255,255,255,0.25);
