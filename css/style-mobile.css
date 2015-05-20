@@ -3,7 +3,6 @@
 	html5up.net | @n33co
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
-@import url('font-awesome.min.css');
 /*********************************************************************************/
 /* Basic                                                                         */
 /*********************************************************************************/
@@ -120,6 +119,10 @@
 		#footer br
 		{
 			display: none;
+		}
+        #footer h2
+		{
+			text-align: center;
 		}
 		
 		#footer .right
