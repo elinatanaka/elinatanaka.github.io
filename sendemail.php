@@ -1,36 +1,18 @@
 <?php
- 
-header('Content-type: application/json');
- 
-$status = array(
- 
-'type'=>'success',
- 
-'message'=>'Thank you for contact us. As early as possible  we will contact you '
- 
-);
- 
- 
-    $name = @trim(stripslashes($_POST['name'])); 
- 
-    $email = @trim(stripslashes($_POST['email'])); 
- 
-    $subject = @trim(stripslashes($_POST['subject'])); 
- 
-    $message = @trim(stripslashes($_POST['message'])); 
- 
- 
-    $email_from = $email;
- 
-    $email_to = 'contact@elinatanaka.com';//replace with your email
- 
- 
-    $body = 'Name: ' . $name . "\n\n" . 'Email: ' . $email . "\n\n" . 'Subject: ' . $subject . "\n\n" . 'Message: ' . $message;
- 
- 
-    $success = @mail($email_to, $subject, $body, 'From: <'.$email_from.'>');
- 
- 
-    echo json_encode($status);
- 
-    die;
+$name       = @trim(stripslashes($_POST['name'])); 
+$from       = @trim(stripslashes($_POST['email'])); 
+$subject    = @trim(stripslashes($_POST['subject'])); 
+$message    = @trim(stripslashes($_POST['message'])); 
+$to   		= 'contact@elinatanaka.com';
+
+$headers   = array();
+$headers[] = "MIME-Version: 1.0";
+$headers[] = "Content-type: text/plain; charset=iso-8859-1";
+$headers[] = "From: {$name} <{admin@elinatanaka.com}>";
+$headers[] = "Reply-To: <{$from}>";
+$headers[] = "Subject: {$subject}";
+$headers[] = "X-Mailer: PHP/".phpversion();
+
+mail($to, $subject, $message, $headers);
+
+die;
