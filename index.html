@@ -1,486 +1,189 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="">
-    <meta name="author" content="">
-    <title>Portfolio</title>
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="css/lightbox.css" rel="stylesheet">  
-    <link href="css/animate.min.css" rel="stylesheet"> 
-	<link href="css/main.css" rel="stylesheet">
-	<link href="css/responsive.css" rel="stylesheet">
-    <script defer src="https://use.fontawesome.com/releases/v5.0.1/js/all.js"></script>
-    
-    <link href="css/fa-solid.min.css" rel="stylesheet">
-    <link href="css/fa-brands.css" rel="stylesheet">
-    <link href="css/fa-brands.min.css" rel="stylesheet">
-    <link href="css/fa-regular.css" rel="stylesheet">
-    <link href="css/fa-solid.css" rel="stylesheet">
-    <link href="css/fa-solid.min.css" rel="stylesheet">
-    <link href="css/fontawesome-all.css" rel="stylesheet">
-    <link href="css/fontawesome-all.min.css" rel="stylesheet">
-    <link href="css/fontawesome.css" rel="stylesheet">
-    <link href="css/fontawesome.min.css" rel="stylesheet">
-    
-<!-- favicon -->
-    
-<link rel="apple-touch-icon" sizes="180x180" href="images/favicons/apple-touch-icon.png">
-<link rel="icon" type="image/png" href="images/favicons//favicon-32x32.png" sizes="32x32">
-<link rel="icon" type="image/png" href="images/favicons//favicon-16x16.png" sizes="16x16">
-<link rel="manifest" href="images/favicons//manifest.json">
-<link rel="mask-icon" href="images/favicons//safari-pinned-tab.svg" color="#5bbad5">
-<meta name="theme-color" content="#ffffff">
-    <!-- endicon -->
-    
-    <!--[if lt IE 9]>
-	    <script src="js/html5shiv.js"></script>
-	    <script src="js/respond.min.js"></script>
-    <![endif]-->       
-  </head>
-
-<body>
-	<header id="header">      
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-12 overflow">
-                   <div class="social-icons pull-right">
-                        <ul class="nav nav-pills">
-                            <li><a href="https://society6.com/tanakajpeg"><i class="fa fa-shopping-bag"></i></a></li>
-                            <li><span title="Etsy"><a href="https://www.etsy.com/shop/tanakajpeg" alt="Etsy"><i class="fab fa-etsy"></i></a></span></li>
-                            <li><a href="http://instagram.com/tanaka.jpeg"><i class="fab fa-instagram"></i></a></li>
-                            <li><a href="http://twitter.com/tanakajpeg"><i class="fab fa-twitter"></i></a></li>
-                            <li><a href="http://dribbble.com/tanakajpeg"><i class="fab fa-dribbble"></i></a></li>
-                            <li><a href="mailto:tanaka.jpeg@gmail.com"><i class="fas fa-envelope"></i></a></li>
-                        </ul>
-                    </div> 
-                </div>
-             </div>
-        </div>
-        <!-- REPLACE WITH NEW PORTFOLIO 
-        <div class="navbar navbar-inverse" role="banner">
-            <div class="container">
-                <div class="navbar-header">
-                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                        <span class="sr-only">Toggle navigation</span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                    </button>
-
-                    <a class="navbar-brand" href="index.html">
-                        <h1><img src="images/logo.png" alt="logo"></h1>
-                    </a>
-                    
-                </div>
-                <div class="collapse navbar-collapse">
-                    <ul class="nav navbar-nav navbar-right">
-                        <li><a href="index.html">Home</a></li>
-                        <li class="dropdown"><a href="#">Pages <i class="fa fa-angle-down"></i></a>
-                            <ul role="menu" class="sub-menu">
-                                <li><a href="aboutus.html">About</a></li>
-                                <li><a href="aboutus2.html">About 2</a></li>
-                                <li><a href="service.html">Services</a></li>
-                                <li><a href="pricing.html">Pricing</a></li>
-                                <li><a href="contact.html">Contact us</a></li>
-                                <li><a href="contact2.html">Contact us 2</a></li>
-                                <li><a href="404.html">404 error</a></li>
-                                <li><a href="coming-soon.html">Coming Soon</a></li>
-                            </ul>
-                        </li>                    
-                        <li class="dropdown"><a href="blog.html">Blog <i class="fa fa-angle-down"></i></a>
-                            <ul role="menu" class="sub-menu">
-                                <li><a href="blog.html">Blog Default</a></li>
-                                <li><a href="blogtwo.html">Timeline Blog</a></li>
-                                <li><a href="blogone.html">2 Columns + Right Sidebar</a></li>
-                                <li><a href="blogthree.html">1 Column + Left Sidebar</a></li>
-                                <li><a href="blogfour.html">Blog Masonary</a></li>
-                                <li><a href="blogdetails.html">Blog Details</a></li>
-                            </ul>
-                        </li>
-                        <li class="dropdown active"><a href="portfolio.html">Portfolio <i class="fa fa-angle-down"></i></a>
-                            <ul role="menu" class="sub-menu">
-                                <li><a class="active" href="portfolio.html">Portfolio Default</a></li>
-                                <li><a href="portfoliofour.html">Isotope 3 Columns + Right Sidebar</a></li>
-                                <li><a href="portfolioone.html">3 Columns + Right Sidebar</a></li>
-                                <li><a href="portfoliotwo.html">3 Columns + Left Sidebar</a></li>
-                                <li><a href="portfoliothree.html">2 Columns</a></li>
-                                <li><a href="portfolio-details.html">Portfolio Details</a></li>
-                            </ul>
-                        </li>                         
-                        <li><a href="shortcodes.html ">Shortcodes</a></li>                    
-                    </ul>
-                </div>
-                <div class="search">
-                    <form role="form">
-                        <i class="fa fa-search"></i>
-                        <div class="field-toggle">
-                            <input type="text" class="search-form" autocomplete="off" placeholder="Search">
-                        </div>
-                    </form>
-                </div>
-            </div>
-        </div>
--->
-    </header>
-    <!--/#header-->
-<section id="home-slider">
-        <div class="container">
-            <div class="row">
-                <div class="main-slider">
-                    <div class="slide-text">
-                        <h1>e tanaka</h1>
-                        <p>more coming soon.</p>
-                    </div>
-                    <img src="images/home/slider/hill.png" class="slider-hill" alt="slider image">
-                    <img src="images/home/slider/house.png" class="slider-house" alt="slider image">
-                    <img src="images/home/slider/sun.png" class="slider-sun" alt="slider image">
-                    <img src="images/home/slider/birds1.png" class="slider-birds1" alt="slider image">
-                    <img src="images/home/slider/birds2.png" class="slider-birds2" alt="slider image">
-                </div>
-            </div>
-        </div>
-        <div class="preloader"><i class="fa fa-sun-o fa-spin"></i></div>
-    </section>
+<!DOCTYPE HTML>
 <!--
-    <section id="page-breadcrumb">
-        <div class="vertical-center sun">
-             <div class="container">
-                <div class="row">
-                    <div class="action">
-                        <div class="col-sm-12">
-                            <h1 class="title">Portfolio</h1>
-                            <p>Be Creative</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-   </section>
-    <!--/#action-->
-<!-- PORTFOLIO TO REPLACE
-    <section id="portfolio">
-        <div class="container">
-            <div class="row">
-                <ul class="portfolio-filter text-center">
-                    <li><a class="btn btn-default active" href="#" data-filter="*">All</a></li>
-                    <li><a class="btn btn-default" href="#" data-filter=".illust">Illustrations</a></li>
-                    <li><a class="btn btn-default" href="#" data-filter=".paint">Paintings</a></li>
-                    <li><a class="btn btn-default" href="#" data-filter=".vector">Vectors</a></li>
-                  <li><a class="btn btn-default" href="#" data-filter=".mobile">Mobile</a></li>
-                    <li><a class="btn btn-default" href="#" data-filter=".mockup">Mockup</a></li>
-                </ul>
-    
-                    
-                <div class="portfolio-items">
-                    <div class="col-xs-6 col-sm-4 col-md-3 portfolio-item illust">
-                        <div class="portfolio-wrapper">
-                            <div class="portfolio-single">
-                                <div class="portfolio-thumb">
-                                    <img src="images/portfolio/webportfoliopieces10.jpeg" class="img-responsive" alt="">
-                                </div>
-                                <div class="portfolio-view">
-                                    <ul class="nav nav-pills">
-                                        <li><a href="https://www.curioos.com/product/canvas/pothos-1"><i class="fa fa-link"></i></a></li>
-                                        <li><a href="images/portfolio-details/teaheeleaves.jpg" data-lightbox="example-set"><i class="fa fa-eye"></i></a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                            <div class="portfolio-info ">
-                                <h2>Botanical</h2>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-xs-6 col-sm-4 col-md-3 portfolio-item illust vector">
-                        <div class="portfolio-wrapper">
-                            <div class="portfolio-single">
-                                <div class="portfolio-thumb">
-                                    <img src="images/portfolio/riceball.png" class="img-responsive" alt="">
-                                </div>
-                                <div class="portfolio-view">
-                                    <ul class="nav nav-pills">
-                                        <li><a href="https://www.behance.net/gallery/39830807/bento-mama"><i class="fa fa-link"></i></a></li>
-                                        <li><a href="images/portfolio-details/bentoamma.png" data-lightbox="example-set"><i class="fa fa-eye"></i></a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                            <div class="portfolio-info ">
-                                <h2>Bento Mama</h2>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-xs-6 col-sm-4 col-md-3 portfolio-item paint">
-                        <div class="portfolio-wrapper">
-                            <div class="portfolio-single">
-                                <div class="portfolio-thumb">
-                                    <img src="images/portfolio/webportfoliopieces2.png" class="img-responsive" alt="">
-                                </div>
-                                <div class="portfolio-view">
-                                    <ul class="nav nav-pills">
-                                        <li><a href="portfolio-details.html"><i class="fa fa-link"></i></a></li>
-                                        <li><a href="images/portfolio-details/jichan.jpg" data-lightbox="example-set"><i class="fa fa-eye"></i></a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                            <div class="portfolio-info">
-                                <h2>Ojichan</h2>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-xs-6 col-sm-4 col-md-3 portfolio-item paint">
-                        <div class="portfolio-wrapper">
-                            <div class="portfolio-single">
-                                <div class="portfolio-thumb">
-                                    <img src="images/portfolio/webportfoliopieces3.png" class="img-responsive" alt="">
-                                </div>
-                                <div class="portfolio-view">
-                                    <ul class="nav nav-pills">
-                                        <li><a href="portfolio-details.html"><i class="fa fa-link"></i></a></li>
-                                        <li><a href="images/portfolio-details/goya.JPG"  data-lightbox="example-set"><i class="fa fa-eye"></i></a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                            <div class="portfolio-info ">
-                                <h2>Saturn</h2>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-xs-6 col-sm-4 col-md-3 portfolio-item paint">
-                        <div class="portfolio-wrapper">
-                            <div class="portfolio-single">
-                                <div class="portfolio-thumb">
-                                    <img src="images/portfolio/webportfoliopieces4.png" class="img-responsive" alt="">
-                                </div>
-                                <div class="portfolio-view">
-                                    <ul class="nav nav-pills">
-                                        <li><a href="portfolio-details.html"><i class="fa fa-link"></i></a></li>
-                                        <li><a href="images/portfolio-details/overflown.JPG" data-lightbox="example-set"><i class="fa fa-eye"></i></a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                            <div class="portfolio-info ">
-                                <h2>Woman</h2>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-xs-6 col-sm-4 col-md-3 portfolio-item paint">
-                        <div class="portfolio-wrapper">
-                            <div class="portfolio-single">
-                                <div class="portfolio-thumb">
-                                    <img src="images/portfolio/webportfoliopieces5.png" class="img-responsive" alt="">
-                                </div>
-                                <div class="portfolio-view">
-                                    <ul class="nav nav-pills">
-                                        <li><a href="https://www.curioos.com/product/canvas/sensory-overload-1"><i class="fa fa-link"></i></a></li>
-                                        <li><a href="images/portfolio-details/sensoryoverload.JPG" data-lightbox="example-set"><i class="fa fa-eye"></i></a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                            <div class="portfolio-info ">
-                                <h2>Explosive</h2>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-xs-6 col-sm-4 col-md-3 portfolio-item paint">
-                        <div class="portfolio-wrapper">
-                            <div class="portfolio-single">
-                                <div class="portfolio-thumb">
-                                    <img src="images/portfolio/webportfoliopieces6.png" class="img-responsive" alt="">
-                                </div>
-                                <div class="portfolio-view">
-                                    <ul class="nav nav-pills">
-                                        <li><a href="portfolio-details.html"><i class="fa fa-link"></i></a></li>
-                                        <li><a href="images/portfolio-details/portfoliofeedme.jpg" data-lightbox="example-set"><i class="fa fa-eye"></i></a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                            <div class="portfolio-info ">
-                                <h2>Eating</h2>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-xs-6 col-sm-4 col-md-3 portfolio-item paint">
-                        <div class="portfolio-wrapper">
-                            <div class="portfolio-single">
-                                <div class="portfolio-thumb">
-                                    <img src="images/portfolio/webportfoliopieces7.png" class="img-responsive" alt="">
-                                </div>
-                                <div class="portfolio-view">
-                                    <ul class="nav nav-pills">
-                                        <li><a href="portfolio-details.html"><i class="fa fa-link"></i></a></li>
-                                        <li><a href="images/portfolio-details/kyouchikuto%20%5Bacrylic%5D.jpg" data-lightbox="example-set"><i class="fa fa-eye"></i></a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                            <div class="portfolio-info ">
-                                <h2>Flora</h2>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-xs-6 col-sm-4 col-md-3 portfolio-item illust vector">
-                        <div class="portfolio-wrapper">
-                            <div class="portfolio-single">
-                                <div class="portfolio-thumb">
-                                    <img src="images/portfolio/webportfoliopieces8.png" class="img-responsive" alt="">
-                                </div>
-                                <div class="portfolio-view">
-                                    <ul class="nav nav-pills">
-                                        <li><a href="https://dribbble.com/shots/3204527-Melting-Fruit-Series"><i class="fa fa-link"></i></a></li>
-                                        <li><a href="images/portfolio-details/threeofthemdarker.png" data-lightbox="example-set"><i class="fa fa-eye"></i></a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                            <div class="portfolio-info ">
-                                <h2>Dripping Fruits</h2>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-xs-6 col-sm-4 col-md-3 portfolio-item illust">
-                        <div class="portfolio-wrapper">
-                            <div class="portfolio-single">
-                                <div class="portfolio-thumb">
-                                    <img src="images/portfolio/webportfoliopieces9.png" class="img-responsive" alt="">
-                                </div>
-                                <div class="portfolio-view">
-                                    <ul class="nav nav-pills">
-                                        <li><a href="portfolio-details.html"><i class="fa fa-link"></i></a></li>
-                                        <li><a href="images/portfolio-details/alltheleaves.jpg" data-lightbox="example-set"><i class="fa fa-eye"></i></a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                            <div class="portfolio-info ">
-                                <h2>Tea Leaves</h2>
-                            </div>
-                        </div>
-                    </div>
-                     <div class="col-xs-6 col-sm-4 col-md-3 portfolio-item illust paint">
-                        <div class="portfolio-wrapper">
-                            <div class="portfolio-single">
-                                <div class="portfolio-thumb">
-                                    <img src="images/portfolio/amaralanegra.png" class="img-responsive" alt="amara la negra">
-                                </div>
-                                <div class="portfolio-view">
-                                    <ul class="nav nav-pills">
-                                        <li><a href="portfolio-details.html"><i class="fa fa-link"></i></a></li>
-                                        <li><a href="images/portfolio-details/amaralanegra.png" data-lightbox="example-set"><i class="fa fa-eye"></i></a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                            <div class="portfolio-info ">
-                                <h2>Amara la Flora </h2>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!--/#portfolio-->
-       -->
-<section id="features">
-        <div class="container">
-            <div class="row">
-                <div class="single-features">
-                    <!-- <div class="col-sm-5 wow fadeInLeft" data-wow-duration="500ms" data-wow-delay="300ms">
-                        <img src="images/bentomama_cake.png" class="img-responsive" alt="cake">
-                    </div>
-                    <div class="col-sm-6 wow fadeInRight" data-wow-duration="500ms" data-wow-delay="300ms">
-                        <h2>Bento Mama</h2>
-                        <p>Japanese. Plant-based. Comfort.</p>
-                         <a href="http://instagram.com/bentomama.food" class="btn btn-common">LETS EAT</a>
-                    </div> -->
-                    <div class="col-sm-5 wow fadeInLeft" data-wow-duration="500ms" data-wow-delay="300ms">
-                        <img src="images/sampleframedprints.png" class="img-responsive" alt="envision">
-                    </div>
-                    <div class="col-sm-5 wow fadeInRight" data-wow-duration="500ms" data-wow-delay="300ms">
-                        <h2>Prints and Things</h2>
-                        <p>original artwork printed on consumer goods</p>
-                         <a href="https://society6.com/tanakajpeg" class="btn btn-common">SOCIETY6</a>
-                    </div>
-                </div>
-                <div class="single-features">
-                    <div class="col-sm-5 col-sm-offset-1 align-right wow fadeInLeft" data-wow-duration="500ms" data-wow-delay="300ms">
-                        <h2>Etsy: Buttons and Tchotchkes</h2>
-                        <p>buttons, hand-bound sketchbooks, and other lil bits.</p>
-                         <a href="https://www.etsy.com/shop/tanakajpeg" class="btn btn-common">LETS ACCESSORIZE</a>
-                    </div>
-                    <div class="col-sm-5 wow fadeInRight" data-wow-duration="500ms" data-wow-delay="300ms">
-                        <img src="images/etsy_buttons.png" class="img-responsive" alt="buttons">
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-     <!--/#features-->
+	Prologue by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>TANAKA PORTFOLIO</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+	</head>
+	<body class="is-preload">
 
-    <footer id="footer">
-        <div class="container">
-            <div class="row">
-              
-                <div class="col-sm-12 text-center bottom-separator">
-                </div>
-                 <!-- testimonsials-->
-                <!-- <div class="col-md-4 col-sm-6">
-                    <div class="testimonial bottom">
-                        <div class="media">
-                            <div class="pull-left">
-                                <a href="#"><img src="images/home/profile1.png" alt=""></a>
-                            </div>
-                            <div class="media-body">
-                                <blockquote>instagram quote.</blockquote>
-                                <h3><a href="#">- @##</a></h3>
-                            </div>
-                         </div>
-                        <div class="media">
-                            <div class="pull-left">
-                                <a href="#"><img src="images/home/profile2.png" alt=""></a>
-                            </div>
-                            <div class="media-body">
-                                <blockquote>instagram quote.</blockquote>
-                                <h3><a href="">- @##</a></h3>
-                            </div>
-                        </div>   
-                    </div> 
-                </div>
-               <div class="col-md-3 col-sm-6">
-                    <div class="contact-info bottom">
-                        <img src="images/lgog_peach.png">
-                    </div>
-                </div> -->
-               <!-- -- THIS FOOTER IS UGGLY
-                <div class="col-md-4 col-sm-6">
-                <img src="images/home/sun.png"></div>
-                <div class="col-md-4 col-sm-12">
-                    <div class="contact-form bottom">
-                        <h2>contact</h2>
-                        <form action="https://formspree.io/contact@elinatanaka.com"
+		<!-- Header -->
+			<div id="header">
+
+				<div class="top">
+
+					<!-- Logo -->
+						<div id="logo">
+							<span class="image avatar48"><img src="images/avatar_withteeth.png" alt="teeth" /></span>
+                            <h1 id="title">E TANAKA</h1>
+							<p>illustrator, painter, printmaker</p>
+						</div>
+
+					<!-- Nav -->
+						<nav id="nav">
+							<ul>
+<!--								<li><a href="#top" id="top-link"><span class="icon fa-home">intro</span></a></li> -->
+								<li><a href="#portfolio" id="portfolio-link"><span class="icon fa-th">body</span></a></li>
+								<li><a href="#about" id="about-link"><span class="icon fa-user">about</span></a></li>
+								<li><a href="#contact" id="contact-link"><span class="icon fa-envelope">contact</span></a></li>
+							</ul>
+						</nav>
+
+				</div>
+
+				<div class="bottom">
+
+					<!-- Social Icons -->
+						<ul class="icons">
+							<li><a href="https://twitter.com/tanakajpeg" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
+							<li><a href="https://www.instagram.com/tanaka.jpeg/" class="icon fa-instagram"><span class="label">Instagram</span></a></li>
+							<li><a href="https://www.etsy.com/shop/tanakajpeg" class="icon fa-etsy"><span class="label">Etsy</span></a></li>
+							<li><a href="https://dribbble.com/tanakajpeg" class="icon fa-dribbble"><span class="label">Dribbble</span></a></li>
+							<li><a href="mailto:tanaka.jpeg@gmail.com" class="icon fa-envelope"><span class="label">Email</span></a></li>
+						</ul>
+
+				</div>
+
+			</div>
+        
+		<!-- Main -->
+			<div id="main">
+                <!-- hiding intro
+					<section id="top" class="one dark cover">
+						<div class="container">
+
+							<header>
+								<h2 class="alt">finding beauty in all things</h2>
+								<p>These are my goals in what I create.</p>
+							</header>
+
+							<footer>
+								<a href="#portfolio" class="button scrolly">my works</a>
+							</footer>
+
+						</div>
+					</section>
+                                 -->
+				<!-- Portfolio -->
+					<section id="portfolio" class="two">
+						<div class="container">
+
+							<header>
+								<h2>pieces</h2>
+							</header>
+							<div class="row">
+								<div class="col-4 col-12-mobile">
+									<article class="item">
+										<a href="portfolio_prints.html" class="image fit"><img src="images/PORTFOLIO/CROPPED/RELIEFPLAYGROUND.png" alt="" /></a>
+										<header>
+											<h3>Prints</h3>
+										</header>
+									</article>
+									<article class="item">
+										<a href="portfolio_illustrations.html" class="image fit"><img src="images/PORTFOLIO/CROPPED/drippingfruit.png" alt="" /></a>
+										<header>
+											<h3>Illustrations</h3>
+										</header>
+									</article>
+								</div>
+								<div class="col-4 col-12-mobile">
+									<article class="item">
+										<a href="portfolio_lifestudy.html" class="image fit"><img src="images/PORTFOLIO/CROPPED/LIFEDRAWING.png" alt="" /></a>
+										<header>
+											<h3>Life Studies</h3>
+										</header>
+									</article>
+									<article class="item">
+										<a href="portfolio_ink.html" class="image fit"><img src="images/PORTFOLIO/CROPPED/MANNEQUIN.png" alt="" /></a>
+										<header>
+											<h3>Ink works</h3>
+										</header>
+									</article>
+								</div>
+								<div class="col-4 col-12-mobile">
+									<article class="item">
+										<a href="portfolio_painting.html" class="image fit"><img src="images/PORTFOLIO/CROPPED/COLLAGECOLOR.png" alt="" /></a>
+										<header>
+											<h3>Painting</h3>
+										</header>
+									</article>
+									<article class="item">
+										<a href="portfolio_nature.html" class="image fit"><img src="images/PORTFOLIO/CROPPED/BODYPLANT.png" alt="" /></a>
+										<header>
+											<h3>Nature and Growth</h3>
+										</header>
+									</article>
+								</div>
+							</div>
+
+						</div>
+					</section>
+
+				<!-- About Me -->
+					<section id="about" class="three">
+						<div class="container">
+
+
+							<a href="#" class="image featured"><img src="images/aboutme.png" alt="plantcliff" /></a>
+
+							<p>e was raised in the bay-area finding beauty in all things. raised during the birth of the silicon valley tech industry and immersed in the vibrant culture of the bay, they have strived to express their story through any creative medium. e has a background in traditional art, illustration, printing, and bookbinding.</p>
+
+						</div>
+					</section>
+
+				<!-- Contact -->
+					<section id="contact" class="four">
+						<div class="container">
+
+							<header>
+								<h2>Contact</h2>
+							</header>
+
+							<p>for inquiries</p>
+
+							<form method="post" action="https://formspree.io/tanaka.jpeg@gmail.com"
                               method="POST">
-                            <input type="text" name="name" class="form-control" required="required" placeholder="name">
-                            <input type="email" name="_replyto" name="email" class="form-control" required="required" placeholder="email">
-                            <input type="text" name="message" class="form-control" rows="8" placeholder="your text here">
-                            <input type="submit" value="Send"  name="submit" class="btn btn-submit" value="Submit">
-                        </form>
-                    </div>
-                </div>
-                 -->
-                <div class="col-sm-12">
-                    <div class="copyright-text text-center">
-                        <p>&copy; tanaka.jpeg 2019. All Rights Reserved.</p>
-                      <!--  <p>Crafted by <a target="_blank" href="http://designscrazed.org/">Allie</a></p> -->
-                    </div>
-                </div>
-            </div>
-        </div>
-    </footer>
-    <!--/#footer-->
+								<div class="row">
+									<div class="col-6 col-12-mobile"><input type="text" name="name" placeholder="Name" /></div>
+									<div class="col-6 col-12-mobile"><input type="text" name="email" placeholder="Email" /></div>
+									<div class="col-12">
+										<textarea name="message" placeholder="Message"></textarea>
+									</div>
+									<div class="col-12">
+										<input type="submit" value="Send Message" />
+									</div>
+								</div>
+							</form>
 
+						</div>
+					</section>
 
-    <script type="text/javascript" src="js/jquery.js"></script>
-    <script type="text/javascript" src="js/bootstrap.min.js"></script>
-    <script type="text/javascript" src="js/jquery.isotope.min.js"></script>
-    <script type="text/javascript" src="js/lightbox.min.js"></script>
-    <script type="text/javascript" src="js/wow.min.js"></script>
-    <script type="text/javascript" src="js/main.js"></script>    
-</body>
+			</div>
+
+		<!-- Footer -->
+			<div id="footer">
+
+				<!-- Copyright -->
+					<ul class="copyright">
+						<li>&copy; Untitled. All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+					</ul>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
 </html>
