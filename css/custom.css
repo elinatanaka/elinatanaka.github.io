@@ -2,99 +2,143 @@
 
 1. NAVIGATION BAR
 2. FOOTER
-
+3. ARCHIVE PAGE
+4. BLOG (SEED) PAGES
 */
-
 /* NAVIGATION BAR */
 /* Larger than tablet */
-@media (min-width: 750px) {
+@media (min-width: 750px) {}
 
-    /* Navbar */
-    .navbar + .docs-section {
-        border-top-width: 0;
-    }
+@media (max-width: 749px) {}
 
-    .navbar,
-    .navbar-spacer {
-        display: block;
-        width: 100%;
-        height: 6.5rem;
-        background: #FFAFF2;
-        z-index: 99;
-        position: fixed;
-    }
+/* Navbar */
+.navbar+.docs-section {
+  border-top-width: 0;
+}
 
-    /* lines for the navbar
+.navbar,
+.navbar-spacer {
+  display: block;
+  width: 100%;
+  height: 6.5rem;
+  background: #FFAFF2;
+  z-index: 99;
+  position: fixed;
+}
+
+/* lines for the navbar
         border-top: 1px solid #005694;
         border-bottom: 1px solid #005694;
     */
+    
+.navbar-spacer {
+  display: none;
+}
 
-    .navbar-spacer {
-        display: none;
-    }
+.navbar>.container {
+  width: 100%;
+}
 
-    .navbar > .container {
-        width: 100%;
-    }
+.navbar-list {
+  list-style: none;
+  margin-bottom: 0;
+}
 
-    .navbar-list {
-        list-style: none;
-        margin-bottom: 0;
-    }
+.navbar-item {
+  position: relative;
+  float: right;
+  margin-bottom: 0;
+}
 
-    .navbar-item {
-        position: relative;
-        float: right;
-        margin-bottom: 0;
-    }
+.navbar-link {
+  text-transform: uppercase;
+  font-family: 'Azeret Mono', monospace;
+  font-size: 11px;
+  font-weight: 300;
+  letter-spacing: .2rem;
+  margin-right: 35px;
+  text-decoration: none;
+  line-height: 6.5rem;
+  color: #005694;
+}
 
-    .navbar-link {
-        text-transform: uppercase;
-        font-family: 'Azeret Mono', monospace;
-        font-size: 11px;
-        font-weight: 300;
-        letter-spacing: .2rem;
-        margin-right: 35px;
-        text-decoration: none;
-        line-height: 6.5rem;
-        color: #005694;
-    }
+.navbar-link.active {
+  color: #F26457;
+}
 
-    .navbar-link.active {
-        color: #F26457;
-    }
+.has-docked-nav .navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+}
 
-    .has-docked-nav .navbar {
-        position: fixed;
-        top: 0;
-        left: 0;
-    }
+.has-docked-nav .navbar-spacer {
+  display: block;
+}
 
-    .has-docked-nav .navbar-spacer {
-        display: block;
-    }
+/* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
+.sticky+.content {
+  padding-top: 60px;
+}
 
-    /* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
-    .sticky + .content {
-        padding-top: 60px;
-    }
+/* Re-overiding the width 100% declaration to match size of % based container */
+.has-docked-nav .navbar>.container {
+  width: 80%;
+}
 
-    /* Re-overiding the width 100% declaration to match size of % based container */
-    .has-docked-nav .navbar > .container {
-        width: 80%;
-    }
+/* portfolio rounded images */
+#soft {
+  border-radius: 10px;
+}
 
-    /* portfolio */
-    #soft {
-        border-radius: 10px;
-    }
+/* FOOTER DEELIOOS*/
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: left;
+}
 
-    /* FOOTER DEELIOOS*/
+/*    ARCHIVE    */
+.archive {
+  background-color: #EEFFD3;
+}
 
-    .footer {
-        position: fixed;
-        left: 0;
-        bottom: 0;
-        width: 100%;
-        text-align: left;
-    }
+/*    SEED      */
+.seed {
+  background-color: #B4FF97
+}
+
+.textbox, .garden-textbox {
+  margin: 20px;
+  padding: 20px;
+  background: #A5D4FF;
+  line-height: 18px;
+  font-size: 18px;
+  border-radius: 10px;
+}
+
+.garden-textbox {
+  display: inline-flex;
+}
+
+.garden-textbox img {
+  border-radius: 5%;
+  padding: 10px;
+}
+
+/* image hover */
+.hover_img a {
+  position: relative;
+}
+
+.hover_img a span {
+  position: absolute;
+  display: none;
+  z-index: 99;
+}
+
+.hover_img a:hover span {
+  display: block;
+}
