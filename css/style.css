@@ -1,0 +1,132 @@
+@import url(fonts.css);
+body,
+html {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    padding: .5em;
+}
+
+th {
+    text-transform: uppercase;
+}
+
+tr {
+    text-align: left;
+}
+
+/* home page */
+
+#home {
+    background-color: #6C92CC;
+}
+#title {
+    height: 40vh;
+    display: flex;
+    color: #F8FFA3;
+    border-bottom: 3px solid #F8FFA3;
+    text-transform: uppercase;
+}
+
+#title h1 {
+    font-family: "Mondwest";
+    font-size: 4.375rem;
+    line-height: 7vh;
+    margin-bottom: 0;
+    margin-top: auto;
+    margin-left: 10vh;
+}
+
+#contents {
+    font-family: "Mondwest", monospace;
+    margin-top: 10vh;
+    margin-left: 10vh;
+    font-size: 1.875em;
+    color: #42EABE;
+}
+
+#contents li {
+    list-style-type: none;
+}
+
+#contents a {
+    text-decoration: none;
+    color: #42EABE;
+}
+
+/* blogpages */
+
+#bunny {
+    background-color: #ABE8D8;
+}
+
+#plants {
+    background-color: pink;
+}
+
+#pagetitle h2 {
+    font-family: "Major Mono Display", monospace;
+    text-transform: uppercase;
+    font-size: 6.5em;
+    line-height: 0.8;
+    margin: 0;
+    color: #A5008A;
+}
+
+#pagetitle {
+    border-bottom: 3px solid #A5008A;
+    margin-bottom: 15%;
+}
+
+#pagecontent {
+    margin: 5%;
+    padding: 4%;
+    background-color: #EEFFD3;
+    color: #A5008A;
+    font-family: serif;
+    border-radius: 1em;
+}
+
+#pagecontent h3 {
+        font-family: "Major Mono Display", monospace;
+        font-size: 1.75em;
+}
+
+
+
+@media screen and (max-width: 600px) {
+    /* table thead {
+      display: none;
+    } 
+    
+    table td {
+      display: flex;
+    }
+    
+    table tbody {
+
+    } */
+  }
+
+/* navigation */
+nav {
+    margin-left: 10vh;
+    text-transform: uppercase;
+}
+
+nav a {
+    color: white;
+    padding-right: 3em;
+    text-decoration: none;
+    font-family: monospace;
+}
+
+footer {
+    width: 100%;
+    bottom: 0;
+    position: fixed;
+    padding: 1%;
+    background: linear-gradient(0deg, rgba(108,146,204,1) 0%, rgba(108,146,204,0) 100%);
+}

@@ -1,0 +1,13 @@
+@font-face {
+    font-family: "Mondwest", monospace;
+    src: url('../fonts/Mondwest-Regular.otf') format('otf');
+    font-display: swap;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Major Mono Display', monospace;
+    src: url('../fonts/MajorMonoDisplay-Regular.ttf') format('ttf');
+    font-weight: 400;
+    font-style: normal;
+}
