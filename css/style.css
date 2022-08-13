@@ -1,4 +1,7 @@
 @import url(fonts.css);
+
+
+
 body,
 html {
     margin: 0;
@@ -66,6 +69,8 @@ tr {
     background-color: pink;
 }
 
+
+
 #pagetitle h2 {
     font-family: "Major Mono Display", monospace;
     text-transform: uppercase;
@@ -94,6 +99,20 @@ tr {
         font-size: 1.75em;
 }
 
+/* craft page */
+
+#craft {
+    background-color: #646d4f;
+}
+
+#craft #pagetitle {
+    border-bottom: 3px solid #150000;
+    margin-bottom: 15%;
+    }
+
+#craft #pagetitle h2 {
+    color: #150000;
+}
 
 
 @media screen and (max-width: 600px) {
@@ -117,7 +136,7 @@ nav {
 }
 
 nav a {
-    color: white;
+    color: #6C92CC;
     padding-right: 3em;
     text-decoration: none;
     font-family: monospace;
@@ -126,7 +145,8 @@ nav a {
 footer {
     width: 100%;
     bottom: 0;
+    left: 0;
     position: fixed;
     padding: 1%;
-    background: linear-gradient(0deg, rgba(108,146,204,1) 0%, rgba(108,146,204,0) 100%);
+    background: linear-gradient(0deg, rgb(255, 255, 255) 0%, rgba(255, 255, 255, 0) 100%);
 }
