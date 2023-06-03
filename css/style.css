@@ -25,12 +25,26 @@ tr {
 #home {
     background-color: #6C92CC;
 }
+
 #title {
     height: 40vh;
     display: flex;
     color: #F8FFA3;
     border-bottom: 3px solid #F8FFA3;
     text-transform: uppercase;
+}
+
+#title input {
+    color: #F8FFA3;
+    font-family: "Mondwest";
+    font-size: 13em;
+    margin-bottom: 0;
+    margin-top: auto;
+    margin-left: 10vh;
+    background: transparent;
+    border: none;
+    text-transform: uppercase;
+    cursor: pointer;
 }
 
 #title h1 {
@@ -95,8 +109,8 @@ tr {
 }
 
 #pagecontent h3 {
-        font-family: "Major Mono Display", monospace;
-        font-size: 1.75em;
+    font-family: "Major Mono Display", monospace;
+    font-size: 1.75em;
 }
 
 /* craft page */
@@ -108,7 +122,7 @@ tr {
 #craft #pagetitle {
     border-bottom: 3px solid #150000;
     margin-bottom: 15%;
-    }
+}
 
 #craft #pagetitle h2 {
     color: #150000;
@@ -127,7 +141,7 @@ tr {
     table tbody {
 
     } */
-  }
+}
 
 /* navigation */
 nav {
@@ -148,5 +162,5 @@ footer {
     left: 0;
     position: fixed;
     padding: 1%;
-    background: linear-gradient(0deg, rgb(255, 255, 255) 0%, rgba(255, 255, 255, 0) 100%);
+    background: linear-gradient(0deg, rgb(255, 251, 170) 0%, rgba(246, 255, 160, 0) 100%);
 }

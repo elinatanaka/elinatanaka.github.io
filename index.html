@@ -10,24 +10,35 @@
 </head>
 <body id="home">
     <main id="container">
+        
         <section id="title">
-            <h1>A Space for Learning</h1>
-            <!-- "A continuously growing site of interests and information" -->
-        </section> 
-        <section id="contents">
-            <ul>
+            <input type="button" value="Elina" onclick="play()">
+        <audio id="audio" autoplay>
+            <source src="media/Alina.m4a" />
+            <source src="media/Alina.mp3" />
+        </audio>
+        </section>  
+         <!--<section id="contents">
+             <ul>
                 <li><a href="fibercrafts.html">sewing & embroidery adventures</a></li>
                 <li><a href="plants.html">basic plant care</a></li>
                 <li><a href="bunny.html">free-range bunny care</a></li>
-            </ul>
-        </section> 
+            </ul> 
+        </section>  -->
        
     </main>
-</body>
+
 <footer>
     <nav>
         <a href="http://tanakajpeg.com">portfolio</a>
         <a href="http://instagram.com/tanaka.jpeg">social</a>
     </nav>
+    <script>
+        function play() {
+    var audio = document.getElementById("audio");
+    audio.play();
+}
+</script>
 </footer>
+</body>
 </html>
