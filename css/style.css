@@ -45,6 +45,7 @@ tr {
     border: none;
     text-transform: uppercase;
     cursor: pointer;
+    transition: 1s;
 }
 
 #title h1 {
@@ -130,6 +131,10 @@ tr {
 
 
 @media screen and (max-width: 600px) {
+    #title input {
+        font-size: 7em;
+        transition: 1s;
+    }
     /* table thead {
       display: none;
     } 
@@ -164,3 +169,4 @@ footer {
     padding: 1%;
     background: linear-gradient(0deg, rgb(255, 251, 170) 0%, rgba(246, 255, 160, 0) 100%);
 }
+
